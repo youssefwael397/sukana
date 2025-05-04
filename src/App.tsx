@@ -9,7 +9,7 @@ import HomePage from './pages/HomePage';
 import Layout from './components/Shared/Layout/Layout';
 import { useTranslation } from 'react-i18next';
 import './styles/fonts.css';
-import './app.css';
+import './App.css';
 import './styles/properties-pagination.css';
 import './styles/custom-antd.css';
 import { store } from './api/store';
