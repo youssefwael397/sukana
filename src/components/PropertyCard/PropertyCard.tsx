@@ -161,7 +161,10 @@ const PropertyCard: React.FC<IPropertyCardProps> = ({
           </p>
           {/* more details  */}
           {showMoreDetailsBtn && (
-            <button className="self-end mb-4 border-[1px] border-[#BE932A] rounded-[20px] py-3 px-4 text-[14px] leading-[16.8px] font-alexandria font-normal text-[#BE932A]">
+            <button
+              className="self-end mb-4 border-[1px] border-[#BE932A] rounded-[20px] py-3 px-4 text-[14px] leading-[16.8px] font-alexandria font-normal text-[#BE932A]"
+              onClick={handleMoreDetails}
+            >
               More Details
             </button>
           )}

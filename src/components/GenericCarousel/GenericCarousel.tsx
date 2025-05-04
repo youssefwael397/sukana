@@ -1,7 +1,6 @@
 import React from 'react';
 import { Carousel } from 'antd';
 import type { CarouselProps } from 'antd';
-import styles from './GenericCarousel.module.css';
 import CustomArrow from '../PropertyCard/CustomArrow';
 
 interface GenericCarouselProps extends CarouselProps {
