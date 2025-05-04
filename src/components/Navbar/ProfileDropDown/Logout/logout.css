@@ -1,0 +1,12 @@
+.logout-modal .ant-modal {
+  width: 525px !important;
+}
+
+.logout-modal .ant-modal .ant-modal-content {
+  padding: 30px 60px !important;
+  border-radius: 16px !important;
+}
+
+.logout-modal .ant-modal-close {
+  display: none !important;
+}

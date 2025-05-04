@@ -1,0 +1,159 @@
+{
+    "header": {
+        "title": "Sukan",
+        "description": "Entdecken Sie einen Ort, an dem Sie gerne leben werden",
+        "search": "Adresse, Stadt, Postleitzahl oder Nachbarschaft"
+    },
+    "contactUs": {
+        "title": "Kontakte",
+        "description": "Sie haben Fragen? Wir helfen Ihnen gerne!",
+        "form": {
+            "getInTouch": "Kontaktieren Sie uns",
+            "address": "Adresse",
+            "emailAddress": "E-Mail-Adresse",
+            "characters": "Charaktere",
+            "title": "Senden Sie eine Nachricht",
+            "fullName": "Vollständiger Name",
+            "email": "E-Mail",
+            "phoneNumber": "Telefonnummer",
+            "message": "Nachricht",
+            "submit": "Einreichen",
+            "success": "Nachricht gesendet",
+            "successDescription": "Nachricht erfolgreich gesendet",
+            "error": "Unerwarteter Fehler",
+            "errorDescription": "Unerwarteter Fehler beim Senden der Nachricht",
+            "validation": {
+                "fullName": {
+                    "required": "Bitte geben Sie einen vollständigen Namen ein"
+                },
+                "email": {
+                    "required": "Bitte geben Sie eine E-Mail ein",
+                    "invalid": "Bitte geben Sie eine gültige E-Mail-Adresse ein"
+                },
+                "phoneNumber": {
+                    "required": "Bitte geben Sie eine Telefonnummer ein"
+                },
+                "message": {
+                    "required": "Bitte geben Sie eine Nachricht ein",
+                    "maxLength": "Bitte geben Sie maximal 750 Zeichen ein"
+                }
+            }
+        }
+    },
+    "about": {
+        "title": "Über uns",
+        "description": "Sukana existiert, um unseren Kunden zu helfen, durch Immobilienverkäufe und -vermietungen Wohlstand und Sicherheit zu erreichen. Wir werden von dem Gefühl der Fülle angetrieben, das unsere Kunden erleben, wenn sie in Räumen leben, arbeiten und spielen, die sie lieben.\nDer Kauf, die Miete, der Verkauf oder die Vermietung von Immobilien ist eine große Sache, weshalb es so wichtig ist, einer Marke zu vertrauen, die Ihnen die Sicherheit gibt, die Sie verdienen!\nJust Property liefert dies, indem es Erkenntnisse aus über 24 Jahren Erfahrung und aus den gemeinsamen Erfahrungen von Zehntausenden von Kunden zusammenbringt, denen wir durch Immobilienverkäufe und -vermietungen geholfen haben.",
+        "points": {
+            "optimism": "Optimismus",
+            "integrity": "Integrität",
+            "excellence": "Exzellenz",
+            "equality": "Gleichwertigkeit",
+            "innovation": "Innovation",
+            "collaboration": "Zusammenarbeit",
+            "loyalty": "Loyalität",
+            "gratitude": "Dankbarkeit"
+        }
+    },
+    "sell": {
+        "title": "Verkaufen",
+        "withUs": {
+            "title": "Verkaufen Sie mit uns"
+        }
+    },
+    "buy": {
+        "title": "Kaufen"
+    },
+    "findAnAgent": {
+        "title": "Einen Agenten finden"
+    },
+    "login": {
+        "title": "Login"
+    },
+    "signUp": {
+        "title": "Melden Sie sich an"
+    },
+    "footer": {
+        "about": {
+            "title": "Über uns"
+        },
+        "contact": {
+            "title": "Kontaktieren Sie uns"
+        },
+        "feedback": {
+            "title": "Rückmeldung"
+        },
+        "ads": {
+            "title": "Werben Sie mit uns"
+        },
+        "followUs": {
+            "title": "Folgen Sie uns"
+        },
+        "privacy": {
+            "title": "Datenschutzrichtlinie"
+        },
+        "terms": {
+            "title": "Allgemeine Geschäftsbedingungen"
+        },
+        "sitemap": {
+            "title": "Sitemap"
+        }
+    },
+    "explore": {
+        "title": "Entdecken Sie Häuser auf Trulia",
+        "description": "Tauchen Sie tief ein und durchstöbern Sie zum Verkauf stehende Häuser, Originalfotos der Nachbarschaft, Bewertungen von Anwohnern und lokale Einblicke, um das Richtige für Sie zu finden.",
+        "viewHomes": {
+            "title": "Häuser ansehen"
+        }
+    },
+    "advertise": {
+        "title": "Werbung für Ihre Immobilie",
+        "description": "Mehr als 98 % der Käufer beginnen ihre Immobiliensuche online. Wir listen Ihre Immobilie auf unserer Website. Wir sind eines der führenden Immobilienmaklerunternehmen mit Sitz im Königreich Bahrain.",
+        "button": "Listen Sie Ihre Immobilie bei uns auf"
+    },
+    "help": {
+        "title": "Erfahren Sie, wie Sukana Ihnen helfen kann",
+        "description": "Sukana beschränkt sich nicht darauf, umfassende Immobilienlisten für viele andere Standorte auf der ganzen Welt anzuzeigen. Wir bieten Investoren umfassende Informationen zu den neuesten Baunachrichten und Preistrends sowie fundierte Berichte, die den Markt analysieren und zukünftige Trends prognostizieren.\nUnsere internationale Marketingerfahrung hat es uns ermöglicht, eine Elite internationaler Käufer zu erreichen, die Vertrauen in unsere außergewöhnlichen Marketingstrategien, unsere Diskretion und unsere Dienstleistungen haben.",
+        "categories": {
+            "buying": {
+                "title": "Kauf",
+                "points": [
+                    {
+                        "title": "Inserate, denen Sie vertrauen können",
+                        "description": "Durchsuchen Sie die genauesten Einträge, validiert von unserem Team",
+                        "link": "Verifizierte Einträge erkunden"
+                    },
+                    {
+                        "title": "Finden Sie einen SuperAgent",
+                        "description": "Die reaktionsschnellsten Agenten mit verifizierten Einträgen",
+                        "link": "Finden Sie Ihren SuperAgent"
+                    },
+                    {
+                        "title": "Preistrends erkunden",
+                        "description": "Entdecken Sie die Preise nach Region, um ein Haus innerhalb Ihres Budgets zu finden",
+                        "link": "Preis nach Region anzeigen"
+                    }
+                ]
+            },
+            "selling": {
+                "title": "Verkauf",
+                "points": [
+                    {
+                        "title": "Jetzt kaufen, später verkaufen",
+                        "description": "Sparen Sie sich Reparaturen und Besichtigungen. Unsere Partner können Ihnen helfen, zuerst Ihr neues Zuhause zu kaufen und dann Ihr altes zu verkaufen.",
+                        "link": "Suchoptionen unserer Partner"
+                    },
+                    {
+                        "title": "Verfolgen Sie den Wert Ihres Hauses",
+                        "description": "Sehen Sie sich die Informationen zur Bewertung Ihres Hauses im Zeitverlauf im Vergleich zu Häusern in Ihrer Gegend an.",
+                        "link": "Verfolgen Sie den Wert Ihres Hauses"
+                    },
+                    {
+                        "title": "Erhalten Sie Angebote für Ihr Zuhause",
+                        "description": "Besuchen Sie den Verkäufermarktplatz, um herauszufinden, wie Sie ohne Inserat verkaufen oder in Ihrem Zuhause bleiben können, während Sie den Kauf Ihres nächsten Zuhauses finanzieren.",
+                        "link": "Entdecken Sie meine Angebote"
+                    }
+                ]
+            }
+        }
+    }
+}

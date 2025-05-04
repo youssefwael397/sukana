@@ -1,0 +1,17 @@
+.label {
+  @apply font-normal text-[12px] leading-[16.8px] font-alexandria text-[#D1D1D6];
+}
+
+.switch {
+  @apply h-5 min-w-10 pl-1 bg-[#606060B2] !important;
+}
+
+.switch :global(.ant-switch-handle) {
+  @apply h-[14px] w-[14px] top-[3px];
+}
+
+.switch:global(.ant-switch-checked),
+.switch:global(.ant-switch-checked:hover),
+.switch:global(.ant-switch-checked:hover):not(.ant-switch-disabled) {
+  @apply bg-gold !important;
+}

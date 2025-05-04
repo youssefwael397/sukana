@@ -1,0 +1,8 @@
+/* Active date card style */
+.activeDateCard {
+  @apply bg-gold text-black border-transparent bg-clip-border hover:text-black !important;
+}
+
+.customRadioButton{
+    @apply rounded-[26px] !important;
+}

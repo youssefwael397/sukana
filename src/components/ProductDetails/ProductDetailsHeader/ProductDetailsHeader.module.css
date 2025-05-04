@@ -1,0 +1,4 @@
+.header {
+  @apply bg-[#292929] pb-5 pt-[180px];
+  box-shadow: 0px 0px 5px 2px #f2e26a4d;
+}

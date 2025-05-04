@@ -1,0 +1,133 @@
+.carousel-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.property-card {
+  min-width: 282px !important;
+  width: 100%;
+  max-width: 400px !important;
+}
+
+.property-card:hover {
+  border: 3px solid #F2E26A;
+  /* border-image-source: linear-gradient(
+    103.01deg,
+    #ae8625 1.55%,
+    #f7ef8a 33%,
+    #d2ac47 66.5%,
+    #edc967 100%
+  ); */
+  box-shadow: 0px 0px 5px 2px #F2E26A;
+}
+
+.property-card .slick-dots {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 4px;
+}
+
+.property-card .slick-arrow {
+  opacity: 1 !important;
+}
+
+.property-card .slick-dots li,
+.property-card .slick-dots li button {
+  width: 7px !important;
+  height: 7px !important;
+  border-radius: 50% !important;
+  background-color: #d1d1d6 !important;
+  margin: 0 !important;
+}
+
+.property-card .slick-dots li.slick-active button {
+  background-color: #fffff5 !important;
+}
+
+.property-card #property_type .type-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50% !important;
+  background: linear-gradient(90.73deg, #dfbd69 2.16%, #926f34 99.44%);
+}
+
+.property-card #property_type .type-text {
+  font-family: Alexandria;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 12px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.property-card #property_price .price-currency {
+  color: #000000;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.property-card #property_price .price-text {
+  font-family: Alexandria;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.property-card #property_description {
+  font-family: Alexandria;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 12px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #33333399;
+}
+
+.property-card #internal-info>div .bedrooms-text,
+.property-card #internal-info>div .bathrooms-text{
+  font-family: Alexandria;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 12px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #33333399;
+}
+
+.property-card #internal-info>div .area-text {
+  font-family: Alexandria;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 12px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #33333399;
+}
+
+.property-card #internal-info>div>img {
+  width: 12px;
+}
+
+.property-card #property_address {
+  font-family: Alexandria;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 12px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #000;
+}

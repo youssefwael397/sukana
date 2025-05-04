@@ -1,0 +1,33 @@
+.customPhoneWrapper :global(.react-tel-input) {
+    @apply w-full h-auto flex flex-row-reverse gap-2 caret-[#606060B2] !important;
+}
+
+.customPhoneWrapper :global(.react-tel-input .form-control) {
+    @apply h-[48px] rounded-[28px] w-full text-[#606060B2] bg-[#FFFFF5] px-6 py-4 focus:outline-none caret-inherit border-[#606060B2] !important;
+}
+
+.customPhoneWrapper :global(.react-tel-input .flag-dropdown) {
+    @apply relative rounded-[28px] bg-[#FFFFF5] border-[#606060B2] flex items-center justify-center !important;
+}
+
+.customPhoneWrapper :global(.selected-flag) {
+    @apply bg-transparent w-[72px] h-[48px] pl-6 pr-8  py-4 flex items-center justify-center;
+}
+
+.customPhoneWrapper :global(.selected-flag:hover) {
+    @apply bg-transparent;
+}
+
+.customPhoneWrapper :global(.selected-flag .flag .arrow) {
+    @apply border-none;
+
+    &:after {
+        @apply absolute w-4 h-4 bg-contain bg-center bg-no-repeat opacity-50;
+        content: '';
+        background-image: url('/assets/icons/black-down-icon.svg');
+        width: 8px;
+        left: 4px;
+        top: 55%;
+        transform: translateY(-40%);
+    }
+}

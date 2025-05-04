@@ -1,0 +1,7 @@
+.headerDescription{
+    @apply font-normal text-[16px] leading-[17.6px] font-alexandria text-[#D1D1D6]
+}
+
+.hr{
+    @apply border-[1px] border-[#606060B2] my-6 rounded-full;
+}

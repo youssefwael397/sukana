@@ -1,0 +1,46 @@
+.custom-search-bar .ant-input-affix-wrapper {
+  height: 50px !important;
+  width: 377px !important;
+  column-gap: 8px !important;
+  padding: 0px 20px !important;
+  font-family: Alexandria;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16.8px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  border-radius: 24px;
+  background-color: transparent !important;
+  border: 1px solid #f2e26a;
+  box-shadow: none !important;
+}
+
+.custom-search-bar .ant-input-affix-wrapper:focus {
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+
+.custom-search-bar input,
+.custom-search-bar input::placeholder {
+  color: #d1d1d6 !important;
+  caret-color: #f7ef8a !important;
+}
+
+.custom-search-bar .anticon-search {
+  color: #f2e26a;
+}
+
+.custom-search-bar input:-webkit-autofill::first-line {
+  color: inherit !important;
+}
+
+.custom-search-bar input:-webkit-autofill,
+.custom-search-bar input:-webkit-autofill:hover,
+.custom-search-bar input:-webkit-autofill:focus,
+.custom-search-bar input:-webkit-autofill:active {
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: #ffffff;
+  transition: background-color 5000s ease-in-out 0s;
+  box-shadow: inset 0 0 20px 20px #23232329;
+}

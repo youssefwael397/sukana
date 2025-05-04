@@ -1,0 +1,70 @@
+.properties-pagination .ant-pagination-item {
+  min-width: 48px !important;
+  height: 48px !important;
+  line-height: 48px !important;
+  background-color: transparent !important;
+  border: 1px solid #f2e26a !important;
+  overflow: hidden !important;
+}
+
+.properties-pagination .ant-pagination-item a {
+  width: 48px !important;
+  height: 48px !important;
+  font-family: Alexandria;
+  line-height: 48px;
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  background-image: linear-gradient(
+    103.01deg,
+    #ae8625 1.55%,
+    #f7ef8a 33%,
+    #d2ac47 66.5%,
+    #edc967 100%
+  ) !important;
+  background-clip: text;
+  color: transparent !important;
+}
+
+.properties-pagination .ant-pagination-item-active a {
+  background-image: linear-gradient(
+    103.01deg,
+    #ae8625 1.55%,
+    #f7ef8a 33%,
+    #d2ac47 66.5%,
+    #edc967 100%
+  ) !important;
+  background-clip: padding-box !important;
+  overflow: hidden !important;
+  color: black !important;
+}
+
+.properties-pagination .ant-pagination-item-link-icon {
+  vertical-align: -0.875em !important;
+}
+
+.properties-pagination .ant-pagination-item-ellipsis {
+  font-family: Alexandria;
+  line-height: 48px;
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.properties-pagination .ant-pagination-prev,
+.properties-pagination .ant-pagination-next {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 48px !important;
+}
+
+.properties-pagination .ant-pagination-prev.ant-pagination-disabled,
+.properties-pagination .ant-pagination-next.ant-pagination-disabled{
+    opacity: 0.20 !important;
+}

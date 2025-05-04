@@ -1,0 +1,44 @@
+.signupModal {
+  width: 923px !important;
+}
+
+.signupModal :global(.ant-modal-content) {
+  padding: 0 !important;
+  border-radius: 16px !important;
+}
+
+.signupModal :global(.ant-modal-close) {
+  display: none !important;
+}
+
+.signupModal :global(.react-tel-input) {
+  display: flex !important;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  gap: 4px !important;
+}
+
+.signupModal :global(.react-tel-input .form-control) {
+  background-color: transparent !important;
+  padding: 20px;
+  width: 100% !important;
+  height: 56px !important;
+  border-radius: 20px !important;
+  border: 1px solid #33333399 !important;
+}
+
+.signupModal :global(.react-tel-input .flag-dropdown) {
+  position: relative;
+  border-radius: 20px !important;
+  padding: 15px 20px !important;
+  background-color: transparent !important;
+  border: 1px solid #33333399 !important;
+}
+
+.signupModal :global(.react-tel-input .flag) {
+  border-radius: 4px !important;
+}
+
+.submitBtn {
+  @apply bg-transparent border-none rounded-[12px] py-2 h-[56px] text-[24px] leading-[29px] font-medium text-black transition-all duration-300 ease-in-out !important;
+}

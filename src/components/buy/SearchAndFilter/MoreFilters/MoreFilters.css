@@ -1,0 +1,204 @@
+.more-filters-modal .ant-modal-content {
+  padding: 0px !important;
+  width: 640px !important;
+  background-color: #FFFFF5 !important;
+}
+
+.more-filters-modal .ant-modal-close {
+  display: none !important;
+}
+
+.more-filters button {
+  height: 50px !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent !important;
+  border-radius: 24px;
+  background-color: transparent !important;
+  border: 1px solid #f2e26a;
+  color: #d1d1d6 !important;
+  box-shadow: none !important;
+  padding: 0px 20px !important;
+  font-family: Alexandria;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16.8px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.more-filters button span {
+  align-self: center !important;
+  color: #f2e26a !important;
+}
+
+.more-filters button:hover {
+  border: 1px solid #f2e26a !important;
+  background: linear-gradient(103.01deg,
+      #ae8625 1.55%,
+      #f7ef8a 33%,
+      #d2ac47 66.5%,
+      #edc967 100%);
+  color: black !important;
+}
+
+.more-filters button.active-btn {
+  background: linear-gradient(103.01deg,
+      #ae8625 1.55%,
+      #f7ef8a 33%,
+      #d2ac47 66.5%,
+      #edc967 100%) !important;
+  color: black !important;
+  box-shadow: none !important;
+  border: 1px solid #f2e26a !important;
+}
+
+.more-filters button.active-btn span {
+  color: #000 !important;
+}
+
+.more-filters button.active-btn:hover {
+  background: linear-gradient(103.01deg,
+      #ae8625 1.55%,
+      #f7ef8a 33%,
+      #d2ac47 66.5%,
+      #edc967 100%);
+  color: black !important;
+}
+
+.more-filters .anticon-down svg {
+  font-size: 15px !important;
+  stroke-width: 5px !important;
+  fill: currentColor;
+}
+
+.more-filters .anticon-down {
+  font-weight: bold !important;
+}
+
+.ant-form-item-label {
+  text-align: start !important;
+}
+
+.ant-form-item-label label::after {
+  content: none !important;
+}
+
+.ant-form-item {
+  margin: 0px !important;
+}
+
+.ant-form-item-row {
+  gap: 20px !important;
+  flex-direction: column !important;
+}
+
+.more-filters-custom-group {
+  display: flex;
+  gap: 16px !important;
+}
+
+
+.more-filters-custom-group .ant-radio-wrapper {
+  margin: 0px !important;
+  border-radius: 6px !important;
+  border: 0.5px solid #33333399 !important;
+  padding: 6px 8px !important;
+  font-family: Alexandria;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 14px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.more-filters-custom-group .ant-radio-wrapper-checked {
+  background: linear-gradient(103.01deg,
+      #ae8625 1.55%,
+      #f7ef8a 33%,
+      #d2ac47 66.5%,
+      #edc967 100%) !important;
+  color: black !important;
+  border-color: transparent !important;
+  background-clip: border-box !important;
+}
+
+.more-filters-custom-group .ant-radio-wrapper .ant-wave-target {
+  display: none;
+}
+
+.more-filters-custom-group .ant-dropdown-menu {
+  padding: 0px !important;
+  background-color: #FFFFF5 !important;
+}
+
+.more-filters-custom-group .ant-dropdown-menu-item {
+  padding: 16px 20px !important;
+}
+
+.more-filters-custom-group .ant-form-item {
+  margin: 0px !important;
+}
+
+.more-filters-custom-group .ant-select-item-option-selected {
+  background: linear-gradient(103.01deg,
+      #ae8625 1.55%,
+      #f7ef8a 33%,
+      #d2ac47 66.5%,
+      #edc967 100%) !important;
+  color: black !important;
+  border-color: transparent !important;
+  background-clip: border-box !important;
+}
+
+.status-container .ant-form-item-control-input {
+  min-width: 140px !important;
+  max-width: max-content;
+}
+
+.status-container .ant-select-selector {
+  background-color: transparent !important;
+  color: #33333399 !important;
+  margin: 0px !important;
+  border-radius: 6px !important;
+  border: 0.5px solid #33333399 !important;
+  padding: 6px 8px !important;
+  font-family: Alexandria;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 14px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.amenities-container .ant-checkbox-wrapper-checked .ant-checkbox-inner {
+  background: linear-gradient(103.01deg,
+      #ae8625 1.55%,
+      #f7ef8a 33%,
+      #d2ac47 66.5%,
+      #edc967 100%) !important;
+  color: black !important;
+  border-color: transparent !important;
+  background-clip: border-box !important;
+}
+
+.more-filters-modal button.ant-btn>span {
+  align-self: center !important;
+}
+
+.more-filters-modal button.search-btn:hover {
+  border-color: #BE932A !important;
+  color: #BE932A !important;
+}
+
+
+/* .more-filters-modal button.view-btn, */
+.more-filters-modal button.view-btn:hover {
+  background-color: #BE932A !important;
+  color: #FFFFF5 !important;
+  border-color: #BE932A !important;
+}

@@ -1,0 +1,98 @@
+.root-gallery-modal.ant-modal-root .ant-modal-wrap {
+  @apply bg-[#292929] h-[100vh]  !important;
+}
+
+.gallery-modal {
+  top: 0px !important;
+}
+
+.gallery-modal .ant-modal-close {
+  top: 20px !important;
+}
+
+.gallery-modal .ant-modal-content {
+  background: transparent !important;
+  box-shadow: none !important;
+  padding: 0px;
+}
+
+.gallery-modal .ant-carousel .ant-image .ant-image-img {
+  @apply rounded-[24px];
+  height: 80vh !important;
+}
+
+.gallery-modal .ant-modal-close {
+  color: #fff;
+  top: -30px;
+  right: 0px;
+}
+
+/* Carousel Styling */
+.gallery-modal .ant-carousel .slick-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* .gallery-modal .ant-image {
+    max-width: 100%;
+    max-height: 80vh;
+    object-fit: contain;
+} */
+
+/* Carousel Arrow Styling */
+.gallery-modal .ant-carousel .slick-prev,
+.gallery-modal .ant-carousel .slick-next {
+  @apply bg-gold bg-opacity-60 !important;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  padding: 30px !important;
+  opacity: 100 !important;
+}
+
+.gallery-modal .ant-carousel .slick-prev:hover,
+.gallery-modal .ant-carousel .slick-next:hover {
+  opacity: 50;
+}
+
+.gallery-modal .ant-carousel .slick-prev::after,
+.gallery-modal .ant-carousel .slick-next::after {
+  content: '';
+  width: 16px;
+  height: 16px;
+  top: 50%;
+  left: 50%;
+  opacity: 100 !important;
+  filter: invert(1);
+}
+
+.gallery-modal .ant-carousel .slick-prev::after {
+  background-image: url('/assets/icons/slick-left-arrow.svg') none no-repeat;
+  transform: translate(-20%, -50%) rotate(-45deg);
+}
+
+.gallery-modal .ant-carousel .slick-next::after {
+  background-image: url('/assets/icons/slick-right-arrow.svg') none no-repeat;
+  transform: translate(-70%, -50%) rotate(135deg);
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+  .gallery-modal {
+    top: 30px !important;
+    width: 100% !important;
+  }
+
+  .gallery-container .gallery-img img {
+    height: 100% !important;
+  }
+
+  .gallery-modal .ant-carousel .ant-image .ant-image-img {
+    height: 100% !important;
+  }
+}

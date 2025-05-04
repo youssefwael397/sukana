@@ -1,0 +1,162 @@
+{
+    "header": {
+        "title": "Sukana",
+        "description": "Discover a place you'll love to live",
+        "search": "Address, city, Zip or nighborhood"
+    },
+    "contactUs": {
+        "title": "Contact Us",
+        "description": "Have questions? We're here to help!",
+        "form": {
+            "getInTouch": "Get in touch",
+            "address": "Address",
+            "emailAddress": "Email Address",
+            "characters": "characters",
+            "title": "Send a message",
+            "fullName": "Full Name",
+            "email": "email",
+            "phoneNumber": "phone Number",
+            "message": "Message",
+            "submit": "Submit",
+            "success": "Message sent",
+            "successDescription": "Message sent successfully",
+            "error": "Unexpected error",
+            "errorDescription": "Unexpected error while sending message",
+            "validation": {
+                "fullName": {
+                    "required": "Please enter a full name"
+                },
+                "email": {
+                    "required": "Please enter a email",
+                    "invalid": "Please enter a valid email"
+                },
+                "phoneNumber": {
+                    "required": "Please enter a phone number"
+                },
+                "message": {
+                    "required": "Please enter a message",
+                    "maxLength": "Please enter a maximum of 750 characters"
+                }
+            }
+        }
+    },
+    "about": {
+        "title": "About Us",
+        "description": "Sukana exists to help our clients achieve wealth and security through property sales and rentals. We are driven by the sense of abundance our clients experience when they live, work and play in spaces that they love.\nBuying, renting, selling or letting property is a big deal, which is why it’s so important to place your trust in a brand that can give you the peace of mind you deserve!\nJust Property delivers on that by bringing together insights from 24+ years of experience and from the shared experiences of tens of thousands of clients who we have helped through property sales and rentals.",
+        "points": {
+            "optimism": "optimism",
+            "integrity": "integrity",
+            "excellence": "excellence",
+            "equality": "equality",
+            "innovation": "innovation",
+            "collaboration": "collaboration",
+            "loyalty": "loyalty",
+            "gratitude": "gratitude"
+        }
+    },
+    "sell": {
+        "title": "Sell",
+        "withUs": {
+            "title": "Sell With Us"
+        }
+    },
+    "buy": {
+        "title": "Buy"
+    },
+    "findAnAgent": {
+        "title": "Find an Agent"
+    },
+    "login": {
+        "title": "Login"
+    },
+    "signUp": {
+        "title": "Sign Up"
+    },
+    "footer": {
+        "about": {
+            "title": "About Us"
+        },
+        "contact": {
+            "title": "Contact Us"
+        },
+        "feedback": {
+            "title": "Feedback"
+        },
+        "ads": {
+            "title": "Advertise With Us"
+        },
+        "followUs": {
+            "title": "Follow Us"
+        },
+        "privacy": {
+            "title": "Privacy Policy"
+        },
+        "terms": {
+            "title": "Terms & Conditions"
+        },
+        "sitemap": {
+            "title": "Sitemap"
+        }
+    },
+    "explore": {
+        "title": "Explore homes on Trulia",
+        "description": "Take a deep dive and browse homes for sale, original neighborhood photos, resident reviews and local insights to find what is right for you.",
+        "viewHomes": {
+            "title": "View Homes"
+        }
+    },
+    "advertise": {
+        "title": "Advertise your property",
+        "description": "More than 98% of buyers start their property search online. We will list your property on our website. We are one of the leading property brokerage companies based in the Kingdom of Bahrain.",
+        "button": "List Your Property With Us"
+    },
+    "help": {
+        "title": "See How Sukana can help",
+        "description": "Sukana doesn't stop at displaying extended property lists many other locations around the word, we offer investors full knowledge of the latest construction news and price trends in addition to savvy reports analyzing market and forecasting its prospective trends.\nOur international marketing experience allowed us to reach an elite international set of buyers who have faith in our exceptional superlative marketing strategies, discretion and services.",
+        "categories": {
+            "buying": {
+                "title": "buying",
+                "points": [
+                    {
+                        "title": "Listings You can Trust",
+                        "description": "Browse the most accurate listings , validated by our team",
+                        "link": "Explore Verified Listings"
+                    },
+                    {
+                        "title": "Find a SuperAgent",
+                        "description": "The most responsive agents with verified listings",
+                        "link": "Find Your SuperAgent"
+                    },
+                    {
+                        "title": "Explore Price Trends",
+                        "description": "Discover Prices by area to find a home within your budget",
+                        "link": "View price by area"
+                    }
+                ]
+            },
+            "selling": {
+                "title": "selling",
+                "points": [
+                    {
+                        "title": "Buy now, sell later",
+                        "description": "Skip the repairs and showings. Our partners can help you buy your new home first, then sell your old one.",
+                        "link": "Search options from our partners"
+                    },
+                    {
+                        "title": "Track your home value",
+                        "description": "See your Home valuation information over time compared to homes in your area.",
+                        "link": "Track your home value"
+                    },
+                    {
+                        "title": "Get offers for your home",
+                        "description": "Visit Seller’s Marketplace to find out how you can sell without listing or stay in your home while you finance the purchase of your next one.",
+                        "link": "Explore my offers"
+                    }
+                ]
+            }
+        }
+    },
+    "savedHomes":{
+        "title": "Saved Homes"
+    }
+}

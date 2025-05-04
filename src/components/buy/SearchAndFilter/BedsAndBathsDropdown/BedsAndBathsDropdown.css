@@ -1,0 +1,41 @@
+.beds-and-baths-dropdown .ant-radio-wrapper {
+    margin: 0px !important;
+    border-radius: 6px !important;
+    border: 0.5px solid #33333399 !important;
+    padding: 6px 8px !important;
+    font-family: Alexandria;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 14px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.beds-and-baths-dropdown .ant-radio-wrapper-checked {
+    background: linear-gradient(103.01deg,
+            #ae8625 1.55%,
+            #f7ef8a 33%,
+            #d2ac47 66.5%,
+            #edc967 100%) !important;
+    color: black !important;
+    border-color: transparent !important;
+    background-clip: border-box !important;
+}
+
+.beds-and-baths-dropdown .ant-radio-wrapper .ant-wave-target {
+    display: none;
+}
+
+.beds-and-baths-dropdown .ant-dropdown-menu {
+    padding: 0px !important;
+    background-color: #FFFFF5 !important;
+}
+
+.beds-and-baths-dropdown .ant-dropdown-menu-item {
+    padding: 16px 20px !important;
+}
+
+.beds-and-baths-dropdown .ant-form-item {
+    margin: 0px !important;
+}

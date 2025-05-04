@@ -1,0 +1,12 @@
+.loginModal {
+  width: 923px !important;
+}
+
+.loginModal :global(.ant-modal-content) {
+  padding: 0px !important;
+  border-radius: 16px !important;
+}
+
+.loginModal :global(.ant-modal-close){
+  display: none !important;
+}

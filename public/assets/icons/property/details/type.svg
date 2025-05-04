@@ -1,0 +1,20 @@
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="mask0_473_1906" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="2" y="2" width="20" height="20">
+<path d="M3 3H21V21H3V3Z" fill="white" stroke="white"/>
+</mask>
+<g mask="url(#mask0_473_1906)">
+<path d="M14.25 20.25H6.75C5.09325 20.25 3.75 18.9068 3.75 17.25V6.75C3.75 5.09325 5.09325 3.75 6.75 3.75H11.25C12.9068 3.75 14.25 5.09325 14.25 6.75V20.25Z" stroke="#D1D1D6" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M6.75 13.5H7.5" stroke="#D1D1D6" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M10.5 13.5H11.25" stroke="#D1D1D6" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M6.75 16.5H7.5" stroke="#D1D1D6" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M10.5 16.5H11.25" stroke="#D1D1D6" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M6.75 7.5H7.5" stroke="#D1D1D6" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M10.5 7.5H11.25" stroke="#D1D1D6" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M6.75 10.5H7.5" stroke="#D1D1D6" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M10.5 10.5H11.25" stroke="#D1D1D6" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M14.25 7.5H17.25C18.9067 7.5 20.25 8.84325 20.25 10.5V17.25C20.25 18.9068 18.9067 20.25 17.25 20.25H14.25" stroke="#D1D1D6" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M17.25 12.75C16.836 12.75 16.5 13.0853 16.5 13.5C16.5 13.9148 16.836 14.25 17.25 14.25C17.664 14.25 18 13.9148 18 13.5C18 13.0853 17.664 12.75 17.25 12.75Z" fill="black" stroke="#D1D1D6"/>
+<path d="M17.25 15.75C16.836 15.75 16.5 16.0853 16.5 16.5C16.5 16.9148 16.836 17.25 17.25 17.25C17.664 17.25 18 16.9148 18 16.5C18 16.0853 17.664 15.75 17.25 15.75Z" fill="black" stroke="#D1D1D6"/>
+<path d="M17.25 11.25C17.664 11.25 18 10.9148 18 10.5C18 10.0853 17.664 9.75 17.25 9.75C16.836 9.75 16.5 10.0853 16.5 10.5C16.5 10.9148 16.836 11.25 17.25 11.25Z" fill="black" stroke="#D1D1D6"/>
+</g>
+</svg>

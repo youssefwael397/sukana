@@ -1,0 +1,40 @@
+.signup-modal {
+  width: 923px !important;
+}
+
+.signup-modal .ant-modal-content {
+  padding: 0px !important;
+  border-radius: 16px !important;
+}
+
+.signup-modal .ant-modal-close {
+  display: none !important;
+}
+
+.signup-modal .react-tel-input {
+  display: flex !important;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  gap: 4px !important; 
+}
+
+.signup-modal .react-tel-input .form-control {
+  background-color: transparent !important;
+  padding: 20px;
+  width: 100% !important;
+  height: 56px !important;
+  border-radius: 20px !important;
+  border: 1px solid #33333399 !important;
+  
+}
+
+.signup-modal .react-tel-input .flag-dropdown {
+  position: relative;
+  border-radius: 20px !important;
+  padding: 15px 20px !important;
+  background-color: transparent !important;
+  border: 1px solid #33333399 !important;
+}
+.signup-modal .react-tel-input .flag{
+  border-radius: 4px !important;
+}

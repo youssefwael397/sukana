@@ -1,0 +1,28 @@
+#buy-search button[type='submit'].ant-btn {
+  height: 50px !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent !important;
+  border-radius: 24px;
+  background-color: transparent !important;
+  border: 1px solid #f2e26a;
+  color: #d1d1d6 !important;
+  box-shadow: none !important;
+  padding: 0px 20px !important;
+  font-family: Alexandria;
+  background: linear-gradient(
+    103.01deg,
+    #ae8625 1.55%,
+    #f7ef8a 33%,
+    #d2ac47 66.5%,
+    #edc967 100%
+  ) !important;
+  color: black !important;
+  box-shadow: none !important;
+  border: 1px solid #f2e26a !important;
+}
+
+#buy-search button[type='submit'].ant-btn > span {
+  align-self: center !important;
+}

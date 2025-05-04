@@ -1,0 +1,29 @@
+.RadioGroup :global(.ant-radio-inner:after) {
+    @apply hidden;
+}
+
+.RadioGroup :global(.ant-radio-wrapper){
+    @apply font-alexandria text-[#FFFFF5] text-[12px] leading-[16.8px];
+}
+
+.RadioGroup :global(.ant-space-gap-row-small) {
+    @apply gap-x-4;
+}
+
+.RadioGroup :global(.ant-radio-wrapper .ant-radio-inner) {
+    @apply bg-[#FFFFF5] bg-clip-border border-transparent;
+}
+
+.RadioGroup :global(.ant-radio-wrapper .ant-radio-checked .ant-radio-inner) {
+    @apply bg-gold border-[1px] border-[#FFFFF5];
+}
+
+.RadioGroup :global(.ant-radio-wrapper:hover .ant-radio-checked .ant-radio-inner) {
+    @apply bg-gold border-[1px] border-[#FFFFF5];
+    box-shadow: 0px 0px 3px 2px #F2E26AB2;
+}
+
+.RadioGroup :global(.ant-radio-wrapper:hover .ant-radio-inner) {
+    @apply border-[1px] bg-clip-border border-transparent;
+    box-shadow: 0px 0px 3px 2px #F2E26AB2;
+}

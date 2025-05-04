@@ -1,0 +1,77 @@
+.custom-dropdown {
+  height: 50px !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent !important;
+  border-radius: 24px;
+  background-color: transparent !important;
+  border: 1px solid #f2e26a;
+  color: #d1d1d6 !important;
+  box-shadow: none !important;
+  padding: 0px 20px !important;
+  font-family: Alexandria;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16.8px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.custom-dropdown span {
+  align-self: center !important;
+  color: #f2e26a !important;
+}
+
+.custom-dropdown:hover {
+  border: 1px solid #f2e26a !important;
+  background: linear-gradient(103.01deg,
+      #ae8625 1.55%,
+      #f7ef8a 33%,
+      #d2ac47 66.5%,
+      #edc967 100%);
+  color: black !important;
+}
+
+.custom-dropdown.ant-dropdown-open {
+  background: linear-gradient(103.01deg,
+      #ae8625 1.55%,
+      #f7ef8a 33%,
+      #d2ac47 66.5%,
+      #edc967 100%) !important;
+  color: black !important;
+  box-shadow: none !important;
+  border: 1px solid #f2e26a !important;
+}
+
+.custom-dropdown.ant-dropdown-open span {
+  color: #000 !important;
+}
+
+.custom-dropdown.ant-dropdown-open:hover {
+  background: linear-gradient(103.01deg,
+      #ae8625 1.55%,
+      #f7ef8a 33%,
+      #d2ac47 66.5%,
+      #edc967 100%);
+  color: black !important;
+}
+
+.custom-dropdown .anticon-down svg {
+  font-size: 15px !important;
+  stroke-width: 5px !important;
+  /* Make the arrow thicker for bold effect */
+  fill: currentColor;
+  /* Ensures the icon color follows the text color */
+}
+
+.custom-dropdown .anticon-down {
+  font-weight: bold !important;
+  /* Make sure the wrapper has bold text, if applicable */
+}
+
+.custom-dropdown.error,
+.custom-dropdown.error:hover {
+  border-color: #ff4d4f !important;
+}

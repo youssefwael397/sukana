@@ -1,0 +1,44 @@
+.price-range-dropdown .ant-dropdown-menu-root:hover,
+.price-range-dropdown .ant-dropdown-menu-root {
+    padding: 0px !important;
+}
+
+.price-range-dropdown .ant-dropdown-menu-item {
+    background-color: #FFFFF5 !important;
+    padding: 12px 18px !important;
+}
+
+.price-range-dropdown .ant-form-item {
+    margin: 0px !important;
+}
+
+.price-range-dropdown .ant-select-selector {
+    background-color: transparent !important;
+    border-color: #606060B2;
+    border-radius: 8px !important;
+    color: #606060B2 !important;
+    outline: none !important;
+    box-shadow: none !important;
+    font-family: Alexandria;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 12px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+.price-range-dropdown .ant-select-selection-placeholder {
+    opacity: 1 !important;
+    color: #606060B2 !important;
+    font-family: Alexandria;
+    font-size: 12px !important;
+    font-weight: 300 !important;
+    line-height: 12px;
+    text-align: center;
+}
+
+.ant-select-dropdown {
+    background-color: #FFFFF5 !important;
+}
